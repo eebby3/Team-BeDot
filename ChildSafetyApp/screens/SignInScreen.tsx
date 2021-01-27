@@ -1,21 +1,12 @@
-import { StackScreenProps } from '@react-navigation/stack';
 import * as React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import BottomTabNavigator from './BottomTabNavigator';
-import { RootStackParamList } from '../types';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { createStackNavigator } from '@react-navigation/stack';
-import { Alert, Button, Text, TouchableOpacity, TextInput, View, StyleSheet } from 'react-native';
+import { Button, Text, TouchableOpacity, TextInput, View, StyleSheet } from 'react-native';
 
 
-import Colors from '../constants/Colors';
-import useColorScheme from '../hooks/useColorScheme';
-import { BottomTabParamList, TabOneParamList, TabTwoParamList, TabThreeParamList } from '../types';
 
 export default SignInScreen;
 
 
-function SignInScreen({ navigation }){
+function SignInScreen({navigation}){
 
 
   return (
